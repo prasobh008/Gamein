@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.logo{
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 2rem;
+}
+#txt{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 1rem;
+}
+#navbarr{
+    background-color: black;
+}
+.corosal{
+    height: 100vh;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+.navbar-toggler{
+    background-color: #aaa;
+}
+.sec3{
+    margin-top: 240px;
+}
+#gms{
+    text-align: center;
+    font-size: 4rem;
+    color: aliceblue;
+    font-family: "Bahianita", sans-serif;
+    padding-bottom: 30px;
+    letter-spacing: 20px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    word-spacing: 5px;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-top: 5%;
+}
+hr{
+    height: 5px;
+    background-color: rgb(255, 255, 255); 
+    border: none;
+    margin-bottom: 80px;
+}
+
+.game-thumb {
+    width: 100%;
+    height: auto;
+  }
+
+  .game-thumb {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .game-thumb:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+button{
+    padding: 8px 15px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: yellow;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 46%;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+body, h1, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+}
+
+.footer {
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    padding: 100px 0; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #444;
+    transition: background-color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    background-color: #060606;
+}
+
+.footer-nav {
+    margin: 20px 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-nav a {
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #aaa;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+@media (max-width: 472px){
+    .sec3{
+        margin-top: 30px;
+    }
+    #gms{
+        font-size: 2rem;
+        margin-left: 30px;
+    }
+    button{
+        margin-left: 40%;
+        padding: 4px 10px;
+    }
+    p{
+        color: rgb(255, 255, 255);
+        word-spacing: 2px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-top: 5%;
+
+    }
+    .first{
+        height: 60px;
+        width: 100%;
+        background-image: url(./img/Screenshot\ 2024-08-23\ 001501.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    #navbarr{
+        margin-top: -60px;
+        margin-left: 20px;
+    }
+    .carousel{
+        margin-top: -20px;
+    }
+}
